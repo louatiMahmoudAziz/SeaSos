@@ -1,0 +1,39 @@
+/* Pagination container */
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  /* Pagination button styles */
+  .pagination button {
+    background-color: #ff6900; /* Change this to your desired button color */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    margin: 0 5px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .pagination button:hover {
+    background-color: #b34b00; /* Change this to the hover color you prefer */
+  }
+  
+  /* Disabled pagination button styles */
+  .pagination button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Current page indicator style */
+  .pagination .current-page {
+    background-color: #ff6900;
+    color: #fff;
+    border-radius: 4px;
+    padding: 8px 12px;
+    margin: 0 5px;
+  }
+  
